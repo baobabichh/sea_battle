@@ -1,0 +1,13 @@
+﻿          1 file(s) copied.
+  A subdirectory or file C:\Users\goshan\source\repos\sea_battle_sfml\x86\Release Static\resources already exists.
+  C:\Users\goshan\source\repos\sea_battle_sfml\resources\ball.wav
+  C:\Users\goshan\source\repos\sea_battle_sfml\resources\sansation.ttf
+          2 file(s) copied.
+  RecordViewer.cpp
+c:\users\goshan\source\repos\sea_battle_sfml\drawshipfield.h(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating code
+  1 of 4793 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  sea_battle_sfml.vcxproj -> C:\Users\goshan\source\repos\sea_battle_sfml\x86\Release Static\sea_battle_sfml.exe

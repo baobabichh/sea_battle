@@ -1,0 +1,6 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="resources\animations\explosion_2.png" transparentColor="">
+ <animation title="EXPLOSION_2" delay="50">
+  <cut w="2048" x="0" y="0" h="1004" row="4" col="8"/>
+ </animation>
+</sprites>

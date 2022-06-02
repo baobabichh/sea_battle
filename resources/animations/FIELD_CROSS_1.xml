@@ -1,0 +1,6 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="resources\animations\FIELD_CROSS_1.png" transparentColor="">
+ <animation title="Default animation" delay="50">
+  <cut w="174" x="0" y="0" h="1412" row="8" col="1"/>
+ </animation>
+</sprites>

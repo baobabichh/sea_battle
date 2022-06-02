@@ -1,0 +1,6 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="resources\animations\smoke_1.png" transparentColor="">
+ <animation title="Default animation" delay="100">
+  <cut w="1533" x="0" y="0" h="1275" row="5" col="6"/>
+ </animation>
+</sprites>

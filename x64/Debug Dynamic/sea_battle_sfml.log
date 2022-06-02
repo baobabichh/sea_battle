@@ -1,0 +1,46 @@
+﻿          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+  A subdirectory or file C:\Users\goshan\source\repos\sea_battle_sfml\x64\Debug Dynamic\resources already exists.
+  C:\Users\goshan\source\repos\sea_battle_sfml\resources\ball.wav
+  C:\Users\goshan\source\repos\sea_battle_sfml\resources\sansation.ttf
+          2 file(s) copied.
+  DrawShipField.cpp
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl sbat::DrawShipField<class sbat::DrawShipFriend>::DrawShipField<class sbat::DrawShipFriend>(void)" (??0?$DrawShipField@VDrawShipFriend@sbat@@@sbat@@QEAA@XZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl sbat::DrawShipField<class sbat::DrawShipFriend>::~DrawShipField<class sbat::DrawShipFriend>(void)" (??1?$DrawShipField@VDrawShipFriend@sbat@@@sbat@@UEAA@XZ) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl sbat::DrawShipField<class sbat::DrawShipFriend>::set_ship_animations(class sbat::Animation *,class sbat::Animation *)" (?set_ship_animations@?$DrawShipField@VDrawShipFriend@sbat@@@sbat@@QEAAXPEAVAnimation@2@0@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl sbat::DrawShipField<class sbat::DrawShipFriend>::set_ship_texture(class std::vector<class sf::Texture,class std::allocator<class sf::Texture> > &)" (?set_ship_texture@?$DrawShipField@VDrawShipFriend@sbat@@@sbat@@QEAAXAEAV?$vector@VTexture@sf@@V?$allocator@VTexture@sf@@@std@@@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: virtual void __cdecl sbat::DrawShipField<class sbat::DrawShipFriend>::update(class sf::RenderWindow &,float const &)" (?update@?$DrawShipField@VDrawShipFriend@sbat@@@sbat@@UEAAXAEAVRenderWindow@sf@@AEBM@Z) referenced in function main
+extlibs\lib\x86\flac.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\freetype.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\ogg.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\openal32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-audio-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-audio-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-audio-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-audio.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-graphics-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-graphics-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-graphics.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-main-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-network-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-network-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-network-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-network.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-system-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-system-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-system.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-window-s-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-window-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\sfml-window.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\vorbis.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\vorbisenc.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+extlibs\lib\x86\vorbisfile.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\goshan\source\repos\sea_battle_sfml\x64\Debug Dynamic\sea_battle_sfml.exe : fatal error LNK1120: 5 unresolved externals

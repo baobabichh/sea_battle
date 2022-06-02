@@ -1,0 +1,6 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="resources/animations/SPARK_ANIM.png" transparentColor="">
+ <animation title="Default animation" delay="50">
+  <cut w="329" x="0" y="0.5" h="90" row="2" col="7"/>
+ </animation>
+</sprites>

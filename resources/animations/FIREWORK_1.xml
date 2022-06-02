@@ -1,0 +1,6 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="resources\animations\FIREWORK_1.png" transparentColor="">
+ <animation title="Default animation" delay="30">
+  <cut w="1536" x="0" y="0" h="1280" row="5" col="6"/>
+ </animation>
+</sprites>
