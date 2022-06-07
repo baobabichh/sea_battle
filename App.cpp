@@ -319,8 +319,8 @@ namespace sbat
 			m_window.draw(*m_game_vs_bot_exit_button);
 			m_window.draw(*m_game_vs_bot_save_replay_button);
 		}
-		m_window.draw(sbat::make_rect(sf::FloatRect(m_game_vs_bot_save_replay_button->get_position().x, m_game_vs_bot_save_replay_button->get_position().y,10.f,10.f)));
-		m_window.draw(sbat::make_rect(sf::FloatRect(m_game_vs_bot_exit_button->get_position().x, m_game_vs_bot_exit_button->get_position().y,10.f,10.f)));
+		/*m_window.draw(sbat::make_rect(sf::FloatRect(m_game_vs_bot_save_replay_button->get_position().x, m_game_vs_bot_save_replay_button->get_position().y,10.f,10.f)));
+		m_window.draw(sbat::make_rect(sf::FloatRect(m_game_vs_bot_exit_button->get_position().x, m_game_vs_bot_exit_button->get_position().y,10.f,10.f)));*/
 	}
 
 	//record_viewer
