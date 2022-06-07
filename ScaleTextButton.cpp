@@ -61,9 +61,9 @@ namespace sbat
 		states.transform *= this->get_Transfrom();
 
 		sf::RectangleShape rect;
-		rect.setFillColor(sf::Color(0, 0, 150, 100));
+		/*rect.setFillColor(sf::Color(0, 0, 150, 100));
 		rect.setSize(sf::Vector2f(m_hit_box.width, m_hit_box.height));
-		rect.setPosition(m_hit_box.left, m_hit_box.top);
+		rect.setPosition(m_hit_box.left, m_hit_box.top);*/
 		target.draw(rect, states);
 		target.draw(m_text, states);
 	}
