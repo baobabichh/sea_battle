@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="sbat::Animation">
+    <Position X="11.5" Y="8" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgEAAQAAARIACAAqgQIAAAAgEACgCAAACACgAAMEMAE=</HashCode>
+      <FileName>Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::App">
+    <Position X="47.5" Y="6" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="sbat::App::AppState">
+        <TypeIdentifier>
+          <NewMemberFileName>App.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>iAACAAwRAgcAoEAAAEIADAaYFAAkAAMQAgEABAB0EgA=</HashCode>
+      <FileName>App.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::AppStateFunc">
+    <Position X="53.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEAAAAAAAIAIAAEAAACACIAICAAAAAACEAAA=</HashCode>
+      <FileName>App.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::Background">
+    <Position X="30.75" Y="8" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="sbat::Background::State">
+        <TypeIdentifier>
+          <NewMemberFileName>Background.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABABAAABAAABAAAoAAIAAgAgAAAAAAAIABAkAABEABw=</HashCode>
+      <FileName>Background.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::BaseButton">
+    <Position X="15" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAABAAAAAAAAIEAAAAAAAAAAAAAAQgAAAEAAA=</HashCode>
+      <FileName>BaseButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::BaseShip">
+    <Position X="28.5" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAAABAACAAIIQAgAAIAAAAAgAAgAAACoQA=</HashCode>
+      <FileName>BaseShip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::GameRecord">
+    <Position X="56" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAACCAAAAAAAAAIAABEgAAAAAA=</HashCode>
+      <FileName>GameRecord.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::BotBase">
+    <Position X="34.25" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAgAQAQAAEAAAAEAAAQAAiAAAAAAAgAAAAAAAEAAA=</HashCode>
+      <FileName>BotBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::BotRandom">
+    <Position X="33.75" Y="12.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAACAAAAAAAgBAAKAAAIAAgIAAAgAAAEIAAAQAg=</HashCode>
+      <FileName>BotRandom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::Comparable&lt;T&gt;">
+    <Position X="7.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Comparable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::DrawField">
+    <Position X="15" Y="14" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AgEABAAAIgAAQKAQAgIIQACCBAgCIAAAAAEgAAIMWAA=</HashCode>
+      <FileName>DrawField.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::DrawShip">
+    <Position X="17.5" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAAAAAAAAAACIAABAgAAAAAAAgJAAAAAAEMAg=</HashCode>
+      <FileName>DrawShip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::DrawShipConstructor">
+    <Position X="23.25" Y="13.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAEAABAAgCAgAAAAAAAABAAAAAAEAAABAA=</HashCode>
+      <FileName>DrawShipConstructor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::DrawShipEnemy">
+    <Position X="27" Y="13.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CQAAEAQAAACAAAAACAIAAAAgAEAAAAABBIBAAggEKAA=</HashCode>
+      <FileName>DrawShipEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::ShipFieldConstructor">
+    <Position X="11" Y="22" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>EQSCEAAEAQAQAAAAIAJCAAAABAAAQAIQEAwAAAEEAAA=</HashCode>
+      <FileName>ShipFieldConstructor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::DrawShipField">
+    <Position X="17.25" Y="22" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>FECgEAQGAAQwABBAEGIBAgQCBAAYAAIAAAAAAAgEAAQ=</HashCode>
+      <FileName>DrawShipField.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::DrawShipFieldEnemy">
+    <Position X="16.5" Y="30" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawShipFieldEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::DrawShipFieldFriend">
+    <Position X="19.25" Y="30" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABAAAAAAAAAAQAAAAAAACCAAAAAAAEAAA=</HashCode>
+      <FileName>DrawShipFieldFriend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::DrawShipFriend">
+    <Position X="19.25" Y="13.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAACBAAAACAIAAAAgAAAAAAABBQBAAgAEKIA=</HashCode>
+      <FileName>DrawShipFriend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::GameBase">
+    <Position X="38.5" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAEAAgIAAIAAAAgAAAEAAA=</HashCode>
+      <FileName>GameBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::GameRecorder">
+    <Position X="56" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgEAAAAAAAAAAAAECAAAAAAAEABAAgCAAAAAA=</HashCode>
+      <FileName>GameRecorder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::GameResources">
+    <Position X="59.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABIAAAAACAAAAAAAAAAAACAAAAIBAAAAAgAAABAAg=</HashCode>
+      <FileName>GameResources.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::GameStyles">
+    <Position X="61.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAEABAABAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameStyles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::GameVsBot">
+    <Position X="37.5" Y="11.75" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="sbat::GameVsBot::GameState">
+        <TypeIdentifier>
+          <NewMemberFileName>GameVsBot.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="sbat::GameVsBot::Turn">
+        <TypeIdentifier>
+          <NewMemberFileName>GameVsBot.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAgACQQAAAEQAACACIAAAAkQEAEAGIQAAAgBAoMAAA=</HashCode>
+      <FileName>GameVsBot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::Positionable">
+    <Position X="20.75" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACCAAAAAAAAAAAAAAAAgAAAAAAIAAAQ=</HashCode>
+      <FileName>Positionable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::Random">
+    <Position X="57.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIQCAAAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Random.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::RecordViewer">
+    <Position X="42.75" Y="8" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="sbat::RecordViewer::State">
+        <TypeIdentifier>
+          <NewMemberFileName>RecordViewer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>JCAAigSBAAABAAAAIgIMEAAEAiAAAgUgEAAEAAAEAAA=</HashCode>
+      <FileName>RecordViewer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::Rotatable">
+    <Position X="10" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAQAAAABAAAAAIAAAAAAAEAAAA=</HashCode>
+      <FileName>Rotatable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::Scalable">
+    <Position X="17.5" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAiAgAAAABAACAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scalable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::ScaleTextButton">
+    <Position X="7.75" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAACAAAAAIAAAACAAAAIgAAAAAAAABEABA=</HashCode>
+      <FileName>ScaleTextButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::TextButton">
+    <Position X="7.5" Y="12" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAECAAAAiAAABIAABAAAAACAAJAAAAAAAAEEAA=</HashCode>
+      <FileName>TextButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::Transformable">
+    <Position X="24.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACACEiCgAABQAAADAAAAAACIAAAAAAMAAAA=</HashCode>
+      <FileName>Transformable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sbat::Updatable">
+    <Position X="15" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAAAAAEAAA=</HashCode>
+      <FileName>Updatable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="sbat::DrawFieldStyle">
+    <Position X="61.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAIAABAAAAAAFAAAAAAAAAAAABAAACAAA=</HashCode>
+      <FileName>DrawFieldStyle.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sbat::Vector2Icompare">
+    <Position X="63" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>func.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sbat::Vector2Ihash">
+    <Position X="63" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>func.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sbat::Padding">
+    <Position X="61.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAgAAAAIAAAAAAIAAAAAgAA=</HashCode>
+      <FileName>Padding.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sbat::TextStyle">
+    <Position X="61.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAEIAAAAQIBAAAAAAA=</HashCode>
+      <FileName>TextStyle.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="sbat::AnimState">
+    <Position X="52.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animation.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sbat::ShipType">
+    <Position X="56" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAACAAAAAAAIAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseShip.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sbat::ShipFacing">
+    <Position X="56" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>BaseShip.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sbat::ShipCellPosition">
+    <Position X="56" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAgAAAAQAAAAA=</HashCode>
+      <FileName>BaseShip.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sbat::ShipCellState">
+    <Position X="56" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>BaseShip.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sbat::DrawShipConstructorState">
+    <Position X="54.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawShipConstructor.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sbat::FieldCellState">
+    <Position X="56" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAgAAAAAAgAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DrawShipField.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sbat::GameTurn">
+    <Position X="57.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>GameRecord.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

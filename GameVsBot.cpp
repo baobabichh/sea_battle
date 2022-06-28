@@ -92,12 +92,12 @@ namespace sbat
 
 		m_bot_text.setFont(GameResources::get_font(DEFAULT_FONT));
 		sbat::apply_style_text(m_bot_text, GameStyles::TextStyles.DefaultText);
-		m_bot_text.setString(L"Бот");
+		m_bot_text.setString(L"Bot");
 		m_bot_text.setPosition(m_field_enemy.get_position().x, (m_field_enemy.get_position().y - m_bot_text.getGlobalBounds().height) - 20);
 
 		m_player_text.setFont(GameResources::get_font(DEFAULT_FONT));
 		sbat::apply_style_text(m_player_text, GameStyles::TextStyles.DefaultText);
-		m_player_text.setString(L"Игрок");
+		m_player_text.setString(L"Player");
 		m_player_text.setPosition(m_field_friend.get_position().x, (m_field_friend.get_position().y - m_player_text.getGlobalBounds().height) - 20);
 
 		//turn
@@ -106,9 +106,9 @@ namespace sbat
 		m_turn_text.set_style(sbat::TextStyle(24, 2, sf::Text::Bold, sf::Color::Red, sf::Color::Yellow));
 		m_turn_text.set_position(1000, 0);
 		if (m_turn == Turn::MY)
-			m_turn_text.set_string(L"Игрок ходит");
+			m_turn_text.set_string(L"Players turn");
 		else if (m_turn == Turn::BOT)
-			m_turn_text.set_string(L"Бот ходит");
+			m_turn_text.set_string(L"Bots turn");
 
 	}
 
@@ -189,9 +189,9 @@ namespace sbat
 		}
 
 		if (m_turn == Turn::MY)
-			m_turn_text.set_string(L"Игрок ходит");
+			m_turn_text.set_string(L"Players turn");
 		else if (m_turn == Turn::BOT)
-			m_turn_text.set_string(L"Бот ходит");
+			m_turn_text.set_string(L"Bots turn");
 
 		if (m_turn == Turn::MY)
 		{
@@ -386,9 +386,9 @@ namespace sbat
 		m_game_recorder.finish();
 
 		if (m_turn == Turn::MY)
-			m_you_win_text.setString(L"Победил игрок");
+			m_you_win_text.setString(L"Player won");
 		else if (m_turn == Turn::BOT)
-			m_you_win_text.setString(L"Победил бот");
+			m_you_win_text.setString(L"Bot won");
 
 		auto val = (static_cast<float>(window.getSize().x)-dist*2.f) / m_you_win_text.getGlobalBounds().width;
 		m_you_win_text.scale

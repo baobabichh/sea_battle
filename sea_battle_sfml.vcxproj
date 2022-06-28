@@ -410,6 +410,7 @@ copy /Y "$(SolutionDir)resources"  "$(TargetDir)resources\"</Command>
     <ClCompile Include="Transformable.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="extlibs\bin\x64\openal32.dll" />
     <None Include="extlibs\bin\x64\sfml-audio-2.dll" />
     <None Include="extlibs\bin\x64\sfml-audio-d-2.dll" />

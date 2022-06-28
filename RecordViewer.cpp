@@ -73,7 +73,7 @@ namespace sbat
 		m_text_current_file.setPosition(m_right_field.get_global_bounds().left, m_right_field.get_global_bounds().top + m_right_field.get_global_bounds().height + 20);
 
 		m_button_prev_file.init();
-		m_button_prev_file.set_string(L"Prev file");
+		m_button_prev_file.set_string(L"Previous file");
 		m_button_prev_file.set_position
 		(
 			m_text_current_file.getGlobalBounds().left,
